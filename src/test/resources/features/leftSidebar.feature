@@ -9,7 +9,7 @@ Feature: The user shall be able to click on all the items on the left sidebar (G
       And accept cookies
 
     Scenario: click on the first item on the left sidebar (Groceries/Bevásárlás)
-      Given departure is set to "office"
-      When  arrival is set to "Nyugati"
-      Then it shows the route in "hungarian"
+      Given click on the "Groceries"
+
+      Then click on the items
 

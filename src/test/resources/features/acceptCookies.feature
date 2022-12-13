@@ -1,10 +1,10 @@
 @Testcase01
-Feature: The cookies shall be accepted on Tesco
+Feature: All the cookies shall be accepted on the website of Tesco
   Rule: It is allowed to accept the cookies
 
     Background:
-      Given open main page
-      And clear cookie cache
+      Given clear cookie cache
+      And open main page
 
     Scenario: accept cookies
       Given accept cookies

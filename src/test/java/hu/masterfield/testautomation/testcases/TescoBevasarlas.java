@@ -51,14 +51,15 @@ public class TescoBevasarlas {
             languagetable.findElement(By.cssSelector("#utility-header-language-switch-link > <span class=\"base-components__BaseElement-sc-1mosoyj-0 styled__TextSpan-rsekm1-4 oznwo cUpzQU beans-button__text\">Magyar</span>")).click();
         }
     }
-    @When("^change the language to \"([^\"]*)\"$")
+ /*   @When("^change the language to \"([^\"]*)\"$")
     public void changeTheLanguageTo(String lang) throws Throwable {
         languageIsSetTo(lang);
     }
     @Given("open main page")
     public void openMainPage() {
-        driver.get("https://bevasarlas.tesco.hu/groceries/");
-        wait.until(driver -> driver.findElement(By.xpath("/html/body/div[1]/div/div/div[2]/div/header/div/div[1]/div[2]/a/svg")));
+        driver.get("https://bevasarlas.tesco.hu/");
+        wait.until(driver -> driver.findElement(By.xpath("//*[@id=\"content\"]/div/div/div[2]/div/header/div/div[1]/div[2]/a/svg")));
+        driver.findElement(By.cssSelector(".styled__TextSpan-rsekm1-4")).click();
     }
     @And("clear cookie cache")
     public void deleteAllCookies(){
@@ -68,8 +69,9 @@ public class TescoBevasarlas {
 
     @And("accept cookies")
     public void acceptCookies() {
-       driver.findElement(By.xpath("//*[@id=\"sticky-bar-cookie-wrapper\"]/span/div/div/div[2]/form[1]/button/span")).click(); // Accept button
-       //driver.findElement(By.xpath("button[text()='Accept' or text()='Elfogadom']")).click();
+       driver.findElement(By.xpath("//*[@id=\"sticky-bar-cookie-wrapper\"]/span/div/div/div[2]/form[1]/button/span")).click(); // Accept all cookies  button
+      //  driver.findElement(By.xpath("//*[@id=\"sticky-bar-cookie-wrapper\"]/span/div/div/div[2]/form[2]/button/span")).click(); // Reject all button
+
     }
 
    }
