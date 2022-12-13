@@ -8,30 +8,30 @@ As a customer,
 I want to be able to change the language of the TESCO website,
 so that I can use the website on english and on hungarian as well.
 
-3.
+/*3.
 As a customer,
 I want to register to the TESCO website,
-so that I can use the website for purchasing products.
+so that I can use the website for purchasing products.*/
 
 4.
-As a customer,
+As a registered customer,
 I want to login to the TESCO website,
 so that I can use the website for purchasing products.
 
 5.
-As a customer,
+As a registered customer,
 I want to open the Promotions site on the TESCO website,
 so that I can choose the bakery website which are in promotion for purchasing products.
 
 6.
 As a customer,
-I want to sort by: "Price: low to high" on the promotion/bakery website by TESCO,
-so that I can find the cheapest bakery product.
+I want to sort by: "Price: low to high" on the promotion/household website by TESCO,
+so that I can find the cheapest household product.
 
 7.
 As a customer,
-I want to purchase the cheapest bakery product sorted by: "Price: low to high" on the promotion/bakery website by TESCO,
-so that I can add the cheapest bakery product to the basket.
+I want to purchase the cheapest bakery product sorted by: "Price: high to low" on the promotion/bakery website by TESCO,
+so that I can add the most expensive bakery product to the basket.
 
 8.
 As a customer,

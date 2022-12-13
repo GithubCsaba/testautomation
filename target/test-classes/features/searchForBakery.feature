@@ -5,3 +5,5 @@ Feature: The cookies shall be accepted on Tesco
     Background:
       Given open main page
       And clear cookie cache
+
+      Scenario:

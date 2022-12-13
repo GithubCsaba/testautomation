@@ -29,11 +29,3 @@ Feature: The user shall be able to change the language on Tesco
         | hungarian | english      |
         | english   | hungarian    |
 
-    @Datatable
-    Scenario: Change language with datatable
-      Given language is set to "hungarian"
-      When change the language to "english"
-      Then it shows elements in "english" with
-        | language  | header_text      |
-        | hungarian | Utazástervezés |
-        | english   | Trip Planner   |
