@@ -1,7 +1,7 @@
 1.
 As a customer,
 I want to clear the cookies in the Chrome browser,
-so that I can to accept the cookies on the TESCO website at all entries.
+so that I can accept the cookies on the TESCO website at all entries.
 
 2.
 As a customer,
@@ -55,5 +55,5 @@ so that I can add the see the list of the results for "mineral waters".
 
 12.
 As a customer,
-I want to add the add the cheapest product in the category "mineral water" to the trolley on the website by TESCO,
+I want to add the cheapest product in the category "mineral water" to the trolley on the website by TESCO,
 so that I can check if there is a product with "Club Card" price (class="offer-text").
